@@ -1,19 +1,67 @@
-/* charity: water Brand Colors & Fonts
+body {
+  font-family: 'Proxima Nova', sans-serif;
+  margin: 0;
+  background-color: #8BD1CB;
+  color: #000;
+}
 
-Primary Colors:
-- Yellow:     #FFC907
-- Blue:       #2E9DF7
+header {
+  background-color: #2E9DF7;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+}
 
-Secondary Colors:
-- Light Blue: #8BD1CB
-- Green:      #4FCB53
-- Orange:     #FF902A
-- Red:        #F5402C
-- Dark Green: #159A48
-- Pink:       #F16061
+.hero {
+  text-align: center;
+  padding: 2rem;
+  background-color: #ffffff;
+}
 
-Fonts:
-- Proxima Nova
-- Avenir
+.hero img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
 
-*/
+.cta-button {
+  display: inline-block;
+  background-color: #FFC907;
+  color: #000;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #FF902A;
+  color: white;
+}
+
+.impact {
+  padding: 2rem;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.impact-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.impact-images img {
+  width: 40%;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #159A48;
+  color: white;
+  text-align: center;
+  padding: 1rem;
